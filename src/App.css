@@ -4,10 +4,7 @@ body {
 .description {
   text-align: center;
 }
-.portfolioCard {
-  max-width: 400px;
-  min-width: 250px;
-}
+
 .portfolioCard a,
 .portfolioCard a:link,
 .portfolioCard a:visited,
@@ -20,11 +17,15 @@ body {
 .portfolioContainer {
   margin: 20px;
   padding: 0;
-  width: 100%;
 }
 .portfolioContainer-each {
-  margin: 30px;
+  margin: 40px;
+  padding: 0;
+}
+.portfolioContainer-each h4 {
+  margin: 20px;
 }
 .portfolioContainer-each p {
   text-align: left;
+  font-size: 1.2rem;
 }
