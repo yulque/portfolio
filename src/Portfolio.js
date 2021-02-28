@@ -61,13 +61,13 @@ export default function Portfolio() {
             MongoDB, Node.JS
             <br />
             <strong>Goal: </strong>
-            Creating a website that a user can creat a new account, login, put
+            Creating a website that a user can create a new account, log-in, put
             items in the cart, and if a user is admin, edit the item's
             information.
             <br />
             <br /> Go and create an account, order some! It won't cost any money
             and you will receive an email about your order. Who knows? it might
-            be delivered some day. Your information will be saved safely with
+            be delivered someday. Your information will be saved safely with
             hash, of course.
             <br />
             <a
@@ -92,8 +92,9 @@ export default function Portfolio() {
               <strong>Goal: </strong>Creating a website using government data.
               <br />
               <br />
-              Did you know Ontario government inspect all bridges every 2 years?
-              With leaflet, you can see where the bridge actually is!
+              Did you know that the Ontario government inspects all bridges
+              every 2 years? With the Leaflet, you can see where the bridge
+              actually is!
               <br />
               <a
                 target="_blank"
@@ -124,9 +125,9 @@ export default function Portfolio() {
             <p>
               <strong>Environment: </strong>React, JavaScript
               <br />
-              <strong>Goal: </strong>By using API from Art Institute of Chicago,
-              a user can search by word to explore and might find art piece that
-              they like.
+              <strong>Goal: </strong>By using API from the Art Institute of
+              Chicago, a user can search by word to explore and might find art
+              pieces they like.
               <br />
               <br />
               If you're a cat lover, go to this website and simply type 'cat'.
