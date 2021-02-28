@@ -21,7 +21,7 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-      <Container maxWidth="sm">
+      <Container maxwidth="sm">
         <Row>
           <Col className="description">
             <Switch>

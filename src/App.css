@@ -15,11 +15,12 @@ body {
 }
 
 .portfolioContainer {
-  margin: 20px;
+  margin-top: 20px;
   padding: 0;
 }
 .portfolioContainer-each {
-  margin: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 0;
 }
 .portfolioContainer-each h4 {
