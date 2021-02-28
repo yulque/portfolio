@@ -65,10 +65,13 @@ export default function Portfolio() {
             items in the cart, and if a user is admin, edit the item's
             information.
             <br />
-            <br /> Go and create an account, order some! It won't cost any money
-            and you will receive an email about your order. Who knows? it might
-            be delivered someday. Your information will be saved safely with
-            hash, of course.
+            <br /> Go and create an account, order some! (Oh, it's on Heroku so
+            it takes maybe 10 secs to wake up. Please wait a bit kindly.). It
+            won't cost any money and you will receive an email about your order.
+            Who knows? it might be delivered someday. Your information will be
+            saved safely with hash, of course. This website also has basic CMS
+            too to edit some information about the kit. If you want to try it,
+            use admin@email.com / 123Qqwe
             <br />
             <a
               target="_blank"
