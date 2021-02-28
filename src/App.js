@@ -25,13 +25,13 @@ function App() {
         <Row>
           <Col className="description">
             <Switch>
-              <Route exact path="/portfolio">
+              <Route path="/portfolio">
                 <Portfolio />
               </Route>
-              <Route exact path="/contact">
+              <Route path="/contact">
                 <Contact />
               </Route>
-              <Route exact path="/">
+              <Route path="/">
                 <Home />
               </Route>
             </Switch>
