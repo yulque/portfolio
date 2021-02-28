@@ -32,7 +32,7 @@
       "react-app/jest"
     ]
   },
-  "homepage":"https://yuriyoon.netlify.app",
+  "homepage":"https://yuriyoon.netlify.app/",
   "browserslist": {
     "production": [
       ">0.2%",
