@@ -38,7 +38,7 @@ export default function Portfolio() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://react-project-artwork.vercel.app/"
+            href="https://web-spotify-yuri.netlify.app/"
           >
             <Card.Img variant="top" src="/record.jpg" />
             <Card.Body>
