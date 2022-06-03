@@ -40,11 +40,12 @@ export default function Portfolio() {
             rel="noreferrer"
             href="https://react-project-artwork.vercel.app/"
           >
-            <Card.Img variant="top" src="/artwork.png" />
+            <Card.Img variant="top" src="/record.jpg" />
             <Card.Body>
-              <Card.Title>Find That Art You Love</Card.Title>
+              <Card.Title>Yuri's Record</Card.Title>
               <Card.Text>
-                Find art works you might like in Art Institute of Chicago
+                Explore newly released albums in Spotify and save them in your
+                own Favourites!
               </Card.Text>
             </Card.Body>
           </a>
@@ -123,7 +124,7 @@ export default function Portfolio() {
           <BiPaint />
           <BiPaint />
           <BiPaint />
-          <div>
+          {/* <div>
             <h4>Find That Art You Love</h4>
             <p>
               <strong>Environment: </strong>React, JavaScript
@@ -144,6 +145,31 @@ export default function Portfolio() {
                 href="https://react-project-artwork.vercel.app/"
               >
                 https://react-project-artwork.vercel.app/
+              </a>
+            </p>
+          </div> */}
+          <div>
+            <h4>Yuri's Record</h4>
+            <p>
+              <strong>Environment: </strong> JavaScript, TypeScript, Angular
+              <br />
+              <strong>Goal: </strong>By using API from spotify, a user can
+              explore new released albums and save music you like in favourites.
+              <br />
+              <br />
+              If you're a music lover, go to this website and simply explore
+              newly released albums. The API from Spotify will show you all the
+              cool albums recently released. If you happen to like some of them,
+              you can save them in your own Favourites menu so that you can
+              listen to them again later. Don't forget to register and log in
+              first.
+              <br />
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://web-spotify-yuri.netlify.app/"
+              >
+                https://web-spotify-yuri.netlify.app/
               </a>
             </p>
           </div>
