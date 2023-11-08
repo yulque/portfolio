@@ -10,7 +10,7 @@ export default function Portfolio() {
           <a
             target="_blank"
             rel="noreferrer"
-            href="https://friendly-veggies.herokuapp.com/"
+            href="https://friendly-veggies-98f2575393b6.herokuapp.com/"
           >
             <Card.Img variant="top" src="/friendlyVeggies.png" />
             <Card.Body>
@@ -67,12 +67,12 @@ export default function Portfolio() {
             information.
             <br />
             <br /> Go and create an account, order some! (Oh, it's on Heroku so
-            it takes maybe 10 secs to wake up. Please wait a bit kindly.). It
+            it takes around 10 secs to wake up. Please wait a bit kindly.). It
             won't cost any money and you will receive an email about your order.
-            Who knows? it might be delivered someday. Your information will be
-            saved safely with hash, of course. This website also has basic CMS
-            too to edit some information about the kit. If you want to try it,
-            use admin@email.com / 123Qqwe
+            Who knows? it might be delivered someday ;) Your information will be
+            saved safely with hash, of course. This website also has an admin tool 
+           to edit some information about the kit. If you want to try it,
+            use this login info: admin@email.com / 123Qqwe
             <br />
             <a
               target="_blank"
@@ -159,10 +159,12 @@ export default function Portfolio() {
               <br />
               If you're a music lover, go to this website and simply explore
               newly released albums. The API from Spotify will show you all the
-              cool albums recently released. If you happen to like some of them,
+              cool albums recently released. If you get interested in the artist, 
+              you can click them and it will lead you to the artist's page that has all their albums.
+                /*If you happen to like some of them,
               you can save them in your own Favourites menu so that you can
               listen to them again later. Don't forget to register and log in
-              first.
+              first.*/
               <br />
               <a
                 target="_blank"
