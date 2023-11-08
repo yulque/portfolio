@@ -77,9 +77,9 @@ export default function Portfolio() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://friendly-veggies.herokuapp.com/"
+              href="https://friendly-veggies-98f2575393b6.herokuapp.com/"
             >
-              https://friendly-veggies.herokuapp.com/
+              https://friendly-veggies-98f2575393b6.herokuapp.com/
             </a>
           </p>
         </Container>
@@ -161,10 +161,6 @@ export default function Portfolio() {
               newly released albums. The API from Spotify will show you all the
               cool albums recently released. If you get interested in the artist, 
               you can click them and it will lead you to the artist's page that has all their albums.
-                /*If you happen to like some of them,
-              you can save them in your own Favourites menu so that you can
-              listen to them again later. Don't forget to register and log in
-              first.*/
               <br />
               <a
                 target="_blank"
