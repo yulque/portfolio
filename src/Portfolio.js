@@ -7,32 +7,26 @@ export default function Portfolio() {
     <>
       <CardDeck>
         <Card className="portfolioCard">
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://friendly-veggies-98f2575393b6.herokuapp.com/"
-          >
-            <Card.Img variant="top" src="/friendlyVeggies.png" />
-            <Card.Body>
-              <Card.Title>Friendly Veggies</Card.Title>
-              <Card.Text>Vegetarian meal-kit delivery shopping mall</Card.Text>
-            </Card.Body>
-          </a>
+          <Card.Img variant="top" src="/friendlyVeggies.png" />
+          <Card.Body>
+            <Card.Title>Friendly Veggies</Card.Title>
+            <Card.Text>Vegetarian meal-kit delivery shopping mall</Card.Text>
+          </Card.Body>
         </Card>
         <Card className="portfolioCard">
-          <a
+          {/* <a
             target="_blank"
             rel="noreferrer"
             href="https://angular-ontario-bridges.vercel.app/"
-          >
-            <Card.Img variant="top" src="/ontario-bridges.png" />
-            <Card.Body>
-              <Card.Title>Ontario Bridges</Card.Title>
-              <Card.Text>
-                The list and maps of all the bridges in Ontario
-              </Card.Text>
-            </Card.Body>
-          </a>
+          > */}
+          <Card.Img variant="top" src="/ontario-bridges.png" />
+          <Card.Body>
+            <Card.Title>Ontario Bridges</Card.Title>
+            <Card.Text>
+              The list and maps of all the bridges in Ontario
+            </Card.Text>
+          </Card.Body>
+          {/* </a> */}
         </Card>
         <Card className="portfolioCard">
           <a
@@ -66,20 +60,13 @@ export default function Portfolio() {
             items in the cart, and if a user is admin, edit the item's
             information.
             <br />
-            <br /> Go and create an account, order some! (Oh, it's on Heroku so
-            it takes around 10 secs to wake up. Please wait a bit kindly.). It
-            won't cost any money and you will receive an email about your order.
-            Who knows? it might be delivered someday ;) Your information will be
-            saved safely with hash, of course. This website also has an admin tool 
-           to edit some information about the kit. If you want to try it,
-            use this login info: admin@email.com / 123Qqwe
-            <br />
+            <strong>Github: </strong>
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://friendly-veggies-98f2575393b6.herokuapp.com/"
+              href="https://github.com/yulque/friendlyVeggies"
             >
-              https://friendly-veggies-98f2575393b6.herokuapp.com/
+              https://github.com/yulque/friendlyVeggies
             </a>
           </p>
         </Container>
@@ -95,21 +82,20 @@ export default function Portfolio() {
               <br />
               <strong>Goal: </strong>Creating a website using government data.
               <br />
-              <br />
               Did you know that the Ontario government inspects all bridges
               every 2 years? With the Leaflet, you can see where the bridge
               actually is!
               <br />
+              <strong>Github: </strong>
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://angular-ontario-bridges.vercel.app/"
+                href="https://github.com/yulque/angular-ontario-bridges"
               >
-                https://angular-ontario-bridges.vercel.app/
+                https://github.com/yulque/angular-ontario-bridges
               </a>
               <br />
-              <br />
-              <strong>> Data: </strong>
+              <strong>Data: </strong>
               <a
                 target="_blank"
                 rel="noreferrer"
@@ -156,12 +142,22 @@ export default function Portfolio() {
               <strong>Goal: </strong>By using API from spotify, a user can
               explore new released albums and save music you like in favourites.
               <br />
-              <br />
               If you're a music lover, go to this website and simply explore
               newly released albums. The API from Spotify will show you all the
-              cool albums recently released. If you get interested in the artist, 
-              you can click them and it will lead you to the artist's page that has all their albums.
+              cool albums recently released. If you get interested in the
+              artist, you can click them and it will lead you to the artist's
+              page that has all their albums.
               <br />
+              <strong>Github: </strong>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/yulque/web422-music"
+              >
+                https://github.com/yulque/web422-music
+              </a>
+              <br />
+              <strong>Website: </strong>
               <a
                 target="_blank"
                 rel="noreferrer"
